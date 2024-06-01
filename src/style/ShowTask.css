@@ -1,0 +1,83 @@
+section.showTask {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+div.title {
+  display: flex;
+  align-items: center;
+}
+
+span.todo {
+  font-size: 30px;
+  font-weight: 400;
+  user-select: none;
+}
+
+span.count {
+  background-color: #dfdfdf;
+  color: #525252;
+  padding: 7px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: #03b056;
+}
+
+li {
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow);
+  margin: 15px 1px;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  border-left: 5px solid green;
+}
+
+li:hover {
+  background-color: #f8f8f8;
+}
+
+li p {
+  display: flex;
+  flex-direction: column;
+}
+
+li .name {
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+li .time {
+  font-size: 15px;
+  color: #737373;
+}
+
+.showTask i.bi-pencil-square {
+  font-size: 18px;
+  color: #1363df;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.showTask i.bi-trash {
+  font-size: 18px;
+  color: #d82148;
+  cursor: pointer;
+  margin: 2px;
+}
